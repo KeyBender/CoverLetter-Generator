@@ -14,22 +14,22 @@ cd CV-Generator/
 pip -r requirments.txt
 ```
 add your openAI api key to an .env file. ([Link to openAI](https://openai.com/api/))
-    - example.env is included, either rename it to '.env' or make a copy named '.env'
+- example.env is included, either rename it to '.env' or make a copy named '.env'
 
 Configure the dict in config.py
-    - "education": str (Options = 'college-p', 'college-b', 'college-a', 'bootcamp', 'self-taught')
-        - p = Phd
-        - b = Bachelor's
-        - a = Accosiate's
-    - "major": str 
-        - The degree major if graduated college
-    - "work_experience": { "value": int, "months": bool }
-        - "value" is amount of years worked in field
-        - "months" replaces years with months
-    - "field": str
-        - Your field of expertise (ie. "Software Developer", "Cloud Engineer", "IT Technician", "Full-Stack developer")
-    - "name": str
-        - Your name. Used for the signature
+- "education": str (Options = 'college-p', 'college-b', 'college-a', 'bootcamp', 'self-taught')
+    - p = Phd
+    - b = Bachelor's
+    - a = Accosiate's
+- "major": str 
+    - The degree major if graduated college
+- "work_experience": { "value": int, "months": bool }
+    - "value" is amount of years worked in field
+    - "months" replaces years with months
+- "field": str
+    - Your field of expertise (ie. "Software Developer", "Cloud Engineer", "IT Technician", "Full-Stack developer")
+- "name": str
+    - Your name. Used for the signature
 
 ## Usage
 ```
