@@ -6,11 +6,11 @@ This was developed and tested with [python3.10](https://www.python.org/downloads
 
 clone the repo
 ```
-git clone https://github.com/KeyBender/CV-Generator.git
+git clone https://github.com/KeyBender/CoverLetter-Generator.git
 ```
 navigate to project and install packages
 ```
-cd CV-Generator/
+cd CoverLetter-Generator/
 pip -r requirments.txt
 ```
 add your openAI api key to an .env file. ([Link to openAI](https://openai.com/api/))
